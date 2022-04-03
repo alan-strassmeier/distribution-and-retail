@@ -354,16 +354,16 @@ main {
 #hero {
   width: 100%;
   height: 75vh;
-  background: url("../img/unnamed.png") center;
-  background-size: unset;
+  background: url("../img/bg.jpg");
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: center-top;
+  background-position: center;
   position: relative;
   margin-bottom: -80px;
 }
 #hero:before {
   content: "";
-  background: rgba(210, 111, 28, 0.80);
+  background: rgba(0, 0, 0, 0.80);
   position: absolute;
   bottom: 0;
   top: 0;
